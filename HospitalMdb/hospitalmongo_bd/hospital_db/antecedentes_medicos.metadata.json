@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"401b158186014135b4e0fe4d3ecf8565","collectionName":"antecedentes_medicos","type":"collection"}

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3b449423-402e-4ffd-bda4-22bbdfe65393" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tecsup/HospitalMdb/citas/controller/CitaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tecsup/HospitalMdb/citas/controller/CitaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tecsup/HospitalMdb/citas/service/CitaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tecsup/HospitalMdb/citas/service/CitaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tecsup/HospitalMdb/citas/service/CitaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tecsup/HospitalMdb/citas/service/CitaServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tecsup/HospitalMdb/consultas/controller/ConsultaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tecsup/HospitalMdb/consultas/controller/ConsultaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tecsup/HospitalMdb/consultas/service/ConsultaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tecsup/HospitalMdb/consultas/service/ConsultaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tecsup/HospitalMdb/consultas/service/ConsultaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tecsup/HospitalMdb/consultas/service/ConsultaServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tecsup/HospitalMdb/pacientes/controller/PacienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tecsup/HospitalMdb/pacientes/controller/PacienteController.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="$PROJECT_DIR$/../../../../xampp/php/php.exe" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="34QykmueSDbjMFuvJhWC7ho4JQ2" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.HospitalMdbApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Juan/IdeaProjects/HospitalMdb/src/main/java/com/tecsup/HospitalMdb/seguridad",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Juan\IdeaProjects\HospitalMdb\src\main\java\com\tecsup\HospitalMdb\seguridad" />
+      <recent name="C:\Users\Juan\IdeaProjects\HospitalMdb\src\main\java\com\tecsup\HospitalMdb\pacientes" />
+      <recent name="C:\Users\Juan\IdeaProjects\HospitalMdb\src\main\java\com\tecsup\HospitalMdb\medicos" />
+      <recent name="C:\Users\Juan\IdeaProjects\HospitalMdb\src\main\java\com\tecsup\HospitalMdb\hospitalizacion" />
+      <recent name="C:\Users\Juan\IdeaProjects\HospitalMdb\src\main\java\com\tecsup\HospitalMdb\facturacion" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="HospitalMdbApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="HospitalMdb" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tecsup.HospitalMdb.HospitalMdbApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
+        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-IU-252.25557.131" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3b449423-402e-4ffd-bda4-22bbdfe65393" name="Changes" comment="" />
+      <created>1761160236813</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1761160236813</updated>
+      <workItem from="1761160238349" duration="7953000" />
+      <workItem from="1761189640824" duration="4750000" />
+      <workItem from="1761250952299" duration="5000" />
+      <workItem from="1761757274162" duration="8887000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

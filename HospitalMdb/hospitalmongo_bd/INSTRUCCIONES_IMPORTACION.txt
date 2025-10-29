@@ -1,0 +1,111 @@
+========================================
+  INSTRUCCIONES DE IMPORTACIÓN
+  Base de Datos - Sistema Hospital MDB
+========================================
+
+REQUISITOS:
+-----------
+1. MongoDB instalado y corriendo
+2. Verificar que MongoDB esté activo: net start MongoDB
+
+
+PASOS PARA IMPORTAR:
+--------------------
+
+OPCIÓN 1 - Usando el script (MÁS FÁCIL):
+-----------------------------------------
+1. Descomprimir el archivo (si está en .zip)
+2. Abrir terminal (CMD) en la carpeta donde está la carpeta "hospital_db"
+3. Doble click en: importar-bd-backup.bat
+4. ¡LISTO!
+
+
+OPCIÓN 2 - Comando manual:
+---------------------------
+1. Descomprimir el archivo (si está en .zip)
+2. Abrir terminal (CMD) 
+3. Ir a la carpeta donde está "hospital_db":
+   cd C:\ruta\donde\esta
+   
+4. Ejecutar:
+   mongorestore --db=hospital_db --drop hospital_db
+
+
+VERIFICAR LA IMPORTACIÓN:
+--------------------------
+1. Abrir MongoDB Compass
+2. Conectar a: mongodb://localhost:27017
+3. Buscar base de datos: hospital_db
+4. Verificar que tenga 17 colecciones
+5. Verificar que cada colección tenga 10 registros
+
+
+ESTRUCTURA ESPERADA:
+--------------------
+La carpeta debe verse así:
+
+hospital_db/
+  ├── usuarios.bson
+  ├── usuarios.metadata.json
+  ├── pacientes.bson
+  ├── pacientes.metadata.json
+  ├── medicos.bson
+  ├── ... (más archivos .bson)
+
+
+DATOS INCLUIDOS:
+----------------
+- 10 Usuarios (admin, médicos, recepcionistas, enfermeras)
+- 10 Pacientes
+- 10 Historias Clínicas
+- 10 Antecedentes Médicos
+- 10 Médicos
+- 10 Especialidades
+- 10 Relaciones Médico-Especialidad
+- 10 Citas
+- 10 Consultas
+- 10 Diagnósticos
+- 10 Recetas Médicas
+- 10 Detalles de Recetas
+- 10 Habitaciones
+- 10 Hospitalizaciones
+- 10 Facturas
+- 10 Detalles de Facturas
+- 10 Bitácoras
+
+TOTAL: 170+ registros
+
+
+INICIAR LA APLICACIÓN:
+----------------------
+1. Abrir el proyecto en IntelliJ IDEA
+2. Ejecutar: HospitalMdbApplication.java
+3. La aplicación estará en: http://localhost:8080
+
+
+PROBAR LOGIN:
+-------------
+Usuario: juan
+Password: 1234
+Rol: admin
+
+
+PROBLEMAS COMUNES:
+------------------
+
+Error: "mongorestore is not recognized"
+Solución: Agregar MongoDB a PATH o usar ruta completa:
+"C:\Program Files\MongoDB\Server\7.0\bin\mongorestore.exe" --db=hospital_db --drop hospital_db
+
+Error: "Failed to connect"
+Solución: Iniciar MongoDB:
+net start MongoDB
+
+Error: "No such file or directory"
+Solución: Verificar que estés en la carpeta correcta y que la carpeta "hospital_db" exista
+
+
+
+========================================
+          ¡BASE DE DATOS LISTA!
+========================================
