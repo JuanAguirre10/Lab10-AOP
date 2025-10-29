@@ -70,8 +70,8 @@ Sistema de Gestión Hospitalaria que integra todos los procesos relacionados con
 ### Estructura General
 
 ```
-HospitalMdb/
-├── Backend (Spring Boot)
+IdeaProjects/
+├── HospitalMdb (Backend Spring Boot)
 │   ├── src/main/java/com/tecsup/HospitalMdb/
 │   │   ├── aspectos/
 │   │   ├── auditoria/
@@ -87,7 +87,7 @@ HospitalMdb/
 │   └── src/main/resources/
 │       └── application.properties
 │
-└── Frontend (React)
+└── hospitalfrontend (Frontend React)
     ├── src/
     │   ├── components/
     │   ├── pages/
